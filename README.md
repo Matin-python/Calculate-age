@@ -1,7 +1,7 @@
-Age Calculator (Python)
+# Age Calculator (Python)
 ---
 
-Project Overview
+## Project Overview
 
 This project is a simple Age Calculator written in Python.
 It calculates a person's exact age in:
@@ -26,11 +26,11 @@ The project includes two versions:
 
    
 ---
-How to Run
+# How to Run
 
 - Make sure you have Python 3 installed.
 
-Run the program:
+# Run the program:
 
     calculate age.py
 
@@ -41,11 +41,11 @@ or
 
 ---
 
-Example Input
+# Example Input
 
     Enter birth date (YYYY-MM-DD): 2000-05-15
 
-Example Output
+# Example Output
 
     You are 25 years, 3 months, and 10 days old.
     Equals to 303 months, 9240 days, 221760 hours, 13305600 seconds.
@@ -53,8 +53,10 @@ Example Output
 
 ---
 
-Author
+## Author
 
-    Mohammad Reza Bakhshandeh
-    Electrical Engineering Graduate | Python Learner
-    Interested in AI and Problem Solving
+**Mohammad Reza Bakhshandeh**
+
+Electrical Engineering (Electronics) Graduate
+
+Interested in Python Development, Computer Vision, Machine Learning, and Artificial Intelligence.
