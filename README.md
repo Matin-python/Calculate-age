@@ -1,57 +1,96 @@
-# Age Calculator (Python)
----
+# Age Calculator
 
-## Project Overview
+A Python application that calculates a person's age based on their birth date. The program provides detailed age information, including years, months, days, and total time measurements.
 
-This project is a simple Age Calculator written in Python.
-It calculates a person's exact age in:
+## Features
 
-+ Years
-+ Months
-+ Days
-+ Total Months
-+ Total Days
-+ Total Hours
-+ Total Seconds
+* Calculate exact age in years, months, and days
+* Calculate total months lived
+* Calculate total days lived
+* Calculate total hours lived
+* Calculate total seconds lived
+* Includes both a basic and an improved implementation
+* Input validation for birth dates
 
----
-The project includes two versions:
-1. calculate age
+## Project Versions
 
-   Basic Version – Manual validation and custom calculations
-   
-2. calculate age(improved)
-   
-   Improved Version – Cleaner implementation using Python’s datetime module
+### 1. Basic Version
 
-   
----
-# How to Run
+**File:** `calculate age.py`
 
-- Make sure you have Python 3 installed.
+A beginner-friendly implementation that uses manual validation and custom age calculations.
 
-# Run the program:
+### 2. Improved Version
 
-    calculate age.py
+**File:** `calculate age(improved).py`
 
-or
+A cleaner and more reliable implementation that utilizes Python's built-in `datetime` module.
 
-    calculate age(improved).py
+## Project Structure
 
+```text
+Age-Calculator/
+│
+├── calculate age.py
+├── calculate age(improved).py
+├── README.md
+└── LICENSE
+```
 
----
+## Requirements
 
-# Example Input
+* Python 3.x
 
-    Enter birth date (YYYY-MM-DD): 2000-05-15
+No external libraries are required.
 
-# Example Output
+## How to Run
 
-    You are 25 years, 3 months, and 10 days old.
-    Equals to 303 months, 9240 days, 221760 hours, 13305600 seconds.
+Run either version from the terminal:
 
+### Basic Version
 
----
+```bash
+python "calculate age.py"
+```
+
+### Improved Version
+
+```bash
+python "calculate age(improved).py"
+```
+
+## Example Input
+
+```text
+Enter birth date (YYYY-MM-DD): 2000-05-15
+```
+
+## Example Output
+
+```text
+You are 25 years, 3 months, and 10 days old.
+Equals to 303 months, 9240 days, 221760 hours, 13305600 seconds.
+```
+
+## How It Works
+
+1. The user enters a birth date in `YYYY-MM-DD` format.
+2. The program validates the input.
+3. The current date is retrieved.
+4. The age difference is calculated.
+5. Results are displayed in multiple formats.
+
+## Future Improvements
+
+* Graphical User Interface (GUI)
+* Support for multiple calendar systems
+* Export results to a text file
+* More detailed date validation
+* Interactive command-line menu
+
+## License
+
+This project is licensed under the MIT License.
 
 ## Author
 
